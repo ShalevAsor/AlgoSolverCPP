@@ -60,7 +60,7 @@ Explanation: There are many ways to make "abccba" not a palindrome, such as
 lexicographically smallest.
 
 Example 2:
-
+test
 Input: palindrome = "a"
 Output: ""
 Explanation: There is no way to replace a single character to make "a" not a
