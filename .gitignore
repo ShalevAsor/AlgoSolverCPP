@@ -9,7 +9,9 @@
 *.swp
 *.swo
 *.tmp
-
+# Ignore all binary files without extensions in the entire repository
+*
+!*/
 # Ignore build directories
 build/
 dist/
