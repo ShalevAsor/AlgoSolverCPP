@@ -1,0 +1,56 @@
+# Ignore executable files
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.swo
+*.tmp
+
+# Ignore build directories
+build/
+dist/
+out/
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore CLion settings
+.idea/
+
+# Ignore any other IDE-specific settings
+*.iml
+*.ipr
+*.iws
+*.user
+
+# Ignore compiled shared libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore coverage reports
+coverage/
+*.lcov
+*.gcov
+*.gcda
+*.gcno
+
+# Ignore other unnecessary files
+tags
