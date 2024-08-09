@@ -1,22 +1,20 @@
-# Ignore executable files
-*.exe
+# Ignore all files
+*
 
-# Ignore object files
-*.o
+# But do not ignore directories
+!*/
 
-# Ignore temporary files created by editors
-*~
-*.swp
-*.swo
-*.tmp
-
-# Ignore binary files without extensions in the entire repository
-*.*    # Ignore all files with extensions
-!*/    # But do not ignore directories
-
-# Do not ignore source files
+# Do not ignore specific files and directories
 !*.cpp
 !*.h
+!*.md
+
+# Ignore binary files (if they do not have extensions)
+*.exe
+*.o
+*.dll
+*.so
+*.dylib
 
 # Ignore build directories
 build/
@@ -47,11 +45,6 @@ Makefile
 *.ipr
 *.iws
 *.user
-
-# Ignore compiled shared libraries
-*.dll
-*.so
-*.dylib
 
 # Ignore coverage reports
 coverage/
