@@ -19,6 +19,7 @@ template <typename T> void print2DArray(const std::vector<vector<T>> &arr);
 template <typename T> T getIndex(const vector<T> &arr, T target);
 template <typename T> string vectorToString(const vector<T> &vec);
 template <typename T> string arrayToString(T arr[], int size);
+template <typename T> bool equals(const vector<T> &a, const vector<T> &b);
 #include "utils.cpp" // Include the implementation
 
 #endif // UTILS_H
